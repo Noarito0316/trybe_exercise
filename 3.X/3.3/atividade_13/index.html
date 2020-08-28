@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>All about Megaman X</title>
+        <style>
+            #megamanx{
+                color:blue;
+                background-color:black;
+            }
+            /* multiclass pode ser aplicada a um atributo "<p>" exemplo*/
+            /* a ultima class é a prioritaria */
+            /* podendo colocar mais de uma familia na fonte seguindo mesma logica */
+            .powermulticlass{
+                font-family: monospace, fantasy;
+            }
+            .megamanclassmultifont{
+                font:bold italic 56px fantasy;
+            }
+            #chama_no_xesque{
+                background-color: blueviolet;
+                font-style: italic;
+                font-weight: bold;
+                height: 150px;
+                width: 70%;
+                overflow-y:auto;
+                overflow-x: hidden;
+                margin: 20px 0px 0px 12px;
+                border: 5px solid rgb(24, 125, 12);
+            }
+            #landscape{
+                height: 250px;
+                position: relative;
+                top: 245px;
+                bottom: 10px;
+                z-index: 1;
+            }
+            #winston{
+                height: 45px;
+                position: relative;
+                top: 140px;
+                bottom: 120px;
+                right: 70px;
+                z-index: 2;
+            }
+            /* usando float para ajuste de organização de estruturas */
+            .imgleft{
+                float:left;
+                clear:both; /*costuma ajustar a caquinha*/
+            }
+            .textleft{
+            color:seashell
+            }
+
+
+            body{background-color:#9eb3c0;}
+        </style>
+    </head>
+    <body>
+    <br>
+
+    <img src="https://www.kasandbox.org/programming-images/landscapes/fields-of-grain.png" id="landscape">
+    <img src="https://www.kasandbox.org/programming-images/creatures/Winston.png" id="winston">
+    
+    <br>
+    <img src="./imagens/megamanxnotion.png" alt="megaman x" width="999" height="218">    
+    <h1 id="megamanx">All about Megaman X</h1>
+    <p class="powermulticlass"> Magaman are a Maverick Hunter, Maraverick hunter  are some robots capable to fight and <br>
+    think, and they responsable to hunt another robots that lost ii's mind to madness, or notorius called:
+    </p>
+    <h2>Maraverick's</h2>
+    <p class="megaclass"> 
+    Some corrupted robots, in almost cases caused by virus "Zero"
+    </p>
+    <br>
+    <div id="chama_no_xesque" >
+    <img class="imgleft" src="./imagens/eve.png" alt="Eve Mv" width="120" height=""> 
+    <br>
+    <p class=textleft> 
+    Alguns textos para serem aplicados os efeitos que devem ser devidamente aplicados <br>
+    quebra de linha para variar e a baixo uma imagem do eve :3 
+    </p>
+    </div>
+    
+    <p>Some text to fill this box    
+    </p>
+
+    </body>
+</html>
