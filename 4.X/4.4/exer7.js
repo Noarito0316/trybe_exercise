@@ -1,13 +1,13 @@
-array = [2, 3, 6, 7, 10, 1];
+array = [2, 4, 6, 7, 10, 0, -3];
 
 
-function Maiorindece(a) {
-    countmax = null;
+function menorindece(a) {
+    countmin = Infinity;
     for (key in array){
-        if (a[key]>countmax){
-        countmax = key
+        if (a[key]<countmin){
+        countmin = key
         }
     }
-    console.log(countmax);    
+    console.log(countmin);    
 }
-Maiorindece(array);
+menorindece(array);
