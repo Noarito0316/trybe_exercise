@@ -1,7 +1,7 @@
-array = [2, 3, 2, 5, 8, 2, 3];
+array = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 
 
-function mais_repete(a) {
+function menorindece(a) {
     count = 0;
     for (key in array){
         if (a[key].length>a[count].length){
@@ -10,4 +10,4 @@ function mais_repete(a) {
     }
     console.log(array[count]);    
 }
-mais_repete(array);
+menorindece(array);
